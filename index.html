@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Comparer</title>
-</head>
-<body>
-    <textarea id='good' style="width: 300px; height: 200px"></textarea>
-    <textarea id='bad' style="width: 300px; height: 200px"></textarea>
-    <br>
-    <button id='compare' onclick="Compare()">Compare</button>
-    <script src="./index.js"></script>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>NFT preview card component</title>
+    <link rel="icon" href="images\favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_card">
+      <img
+        class="inner-image"
+        src="images\image-equilibrium.jpg"
+        alt="NFT_equilibrum"
+      />
+
+      <h3 class="heading-3">Equilibrium #3429</h3>
+      <p class="text-description">
+        Our Equilibrium collection promotes balance and calm
+      </p>
+      <div class="content">
+        <div>
+          <img src="images\icon-ethereum.svg" alt="ethereums-icon" />
+          <p>0.041ETH</p>
+        </div>
+        <div>
+          <img src="images\icon-clock.svg" alt="icon-clock" />
+          <p>3 days left</p>
+        </div>
+      </div>
+      <div class="person-container">
+        <img
+          class="person-image"
+          src="images\image-avatar.png"
+          alt="avatar-image"
+        />
+        <p class="person"><span>Creation of</span> Jules Wyvern</p>
+      </div>
+    </div>
+  </body>
 </html>
